@@ -1,0 +1,11 @@
+.header-main {
+  display: flex;
+  padding-top: 120px;
+  height: 520px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: url(../images/asfalt-light.png);
+}
