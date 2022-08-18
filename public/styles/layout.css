@@ -103,6 +103,7 @@ article.tweet footer {
 
 .tweet-footer-icons > i:hover {
   color: goldenrod;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -113,8 +114,6 @@ article.tweet footer {
 
   #contents {
     display: flex;
-    /* margin: 0 auto; */
-    /* align-items: center; */
     justify-content: center;
   }
 }

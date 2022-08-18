@@ -19,3 +19,7 @@ span {
   display: flex;
   justify-content: center;
 }
+
+.nav-right {
+  cursor: pointer;
+}
