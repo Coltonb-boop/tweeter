@@ -9,3 +9,16 @@
   background-color: orange;
   background-image: url(../images/asfalt-light.png);
 }
+
+.double-down-arrow > i {
+  color: red;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header-main {
+    width: 50%;
+    max-width: 500px;
+    height: 500px;
+    margin-top: 160px;
+  }
+}

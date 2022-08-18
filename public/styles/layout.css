@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   background-color: #f4f1ec;
   color: #545149;
   font-size: 24px;
@@ -28,7 +29,19 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
-main {
+#contents {
+  width: 100%
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+ /* was main */
+.container {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -73,6 +86,7 @@ article.tweet header {
   border-bottom-style: solid;
   padding: 15px 15px;
   margin: 0 10px;
+  word-wrap: break-word;
 }
 
 article.tweet footer {
@@ -87,6 +101,20 @@ article.tweet footer {
   padding: 0 2px;
 }
 
-i:hover {
+.tweet-footer-icons > i:hover {
   color: goldenrod;
+}
+
+@media only screen and (min-width: 1024px) {
+  #main-container {
+    padding-top: 120px;
+    width: 50%;
+  }
+
+  #contents {
+    display: flex;
+    /* margin: 0 auto; */
+    /* align-items: center; */
+    justify-content: center;
+  }
 }

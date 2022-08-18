@@ -20,7 +20,7 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
@@ -37,68 +37,48 @@
       </div>
 
     </nav>
-
-    <!--  -->
-    <header class="header-main">
-
-      <div>
-        <img src="/images/profile-hex.png">
-      </div>
-      <br>
-      <div>
-        <h2>Colton Bitz</h2>
-      </div>
-
-    </header>
-
-    <!-- Page-specific (main) content here -->
-    <main id="tweets-container" class="container">
-
-      <!-- New Tweet -->
-      <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form class="tweet-container" method="post" action="/tweets/">
-          <!-- <label for="tweet-text">What are you humming about?</label> -->
-          <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
-          <div class="tweet-inner-container">
-            <button id="tweet-button" type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">140</output>
-          </div>
-        </form>
-      </section>
-
-      <!-- Tweet Section -->
-      <!-- <article class="tweet">
-        <header>
-          <div class="tweet-sub-header">
-            <div>
-              Icon
-            </div>
-            <div>
-              Newton
-            </div>
-          </div>
-          <div class="username-font">
-            @SirIsaac
-          </div>
-        </header>
-
-        <div class="tweet-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, deleniti?
+    
+    <div id="contents">
+      <!--  -->
+      <header class="header-main">
+        
+        <div>
+          <img src="/images/profile-hex.png">
         </div>
-
-        <footer>
-          <div>
-            10 years ago
-          </div>
-          <div class="tweet-footer-icons">
-            <i class="fa-solid fa-flag"></i>
-            <i class="fa-solid fa-retweet"></i>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </footer>
-      </article> -->
+        <br>
+        <div>
+          <h2>Colton Bitz</h2>
+        </div>
+        
+      </header>
       
-    </main>
+      <div id="main-container">
+        <!-- New Tweet -->
+        <div class="container">
+          <section class="new-tweet">
+            <h2>Compose Tweet</h2>
+            <form id="new-tweet-container" class="tweet-container" method="post" action="/tweets/">
+              <!-- <label for="tweet-text">What are you humming about?</label> -->
+              <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+              <div class="tweet-inner-container">
+                <button id="tweet-button" type="submit">Tweet</button>
+                <output name="counter" class="counter" for="tweet-text">140</output>
+              </div>
+            </form>
+          </section>
+
+          <div class="complaint-department">
+            
+          </div>
+        </div>
+        
+        <!-- Page-specific (main) content here -->
+        <main id="tweets-container" class="container">
+
+
+
+        </main>
+      </div>
+    </div>
   </body>
 </html>
