@@ -6,9 +6,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
-!["Screenshot of desktop page"](https://github.com/Coltonb-boop/tweeter/blob/master/public/images/tweeter-desktop.png?raw=true)
-!["Screenshot of error presentation"](https://github.com/Coltonb-boop/tweeter/blob/master/public/images/tweet-error.png?raw=true)
-!["Screenshot of mobile page"](https://github.com/Coltonb-boop/tweeter/blob/master/public/images/tweet-mobile.png?raw=true)
+!["Screenshot of desktop page"](https://github.com/Coltonb-boop/tweeter/blob/master/docs/tweeter-desktop.png?raw=true)
+!["Screenshot of error presentation"](https://github.com/Coltonb-boop/tweeter/blob/master/docs/tweet-error.png?raw=true)
+!["Screenshot of mobile page"](https://github.com/Coltonb-boop/tweeter/blob/master/docs/tweet-mobile.png?raw=true)
 
 ## Getting Started
 
