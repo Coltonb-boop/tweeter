@@ -30,6 +30,7 @@
   background-color: #4056a1;
   color: #FFFFFF;
   padding: 0.15em 0.5em;
+  cursor: pointer;
 }
 
 #tweet-button:hover {
